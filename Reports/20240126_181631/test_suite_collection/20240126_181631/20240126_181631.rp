@@ -3,7 +3,7 @@
    <description></description>
    <name>20240126_181631</name>
    <tag></tag>
-   <displayName>20240126_181631</displayName>
+   <displayName>test suite collection final report</displayName>
    <reportItemDescriptions>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/checkpoints_testsuite_folder/checkpoint_testsuite_country_009/20240126_181632</reportLocation>
@@ -13,7 +13,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>1</testCaseAmount>
       </ReportItemDescription>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/checkpoints_testsuite_folder/checkpoint_ts_adress_008/20240126_181634</reportLocation>
@@ -23,7 +23,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>1</testCaseAmount>
       </ReportItemDescription>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/data_driven_testing_ts_folder/category_item_ts_002/20240126_181636</reportLocation>
@@ -33,7 +33,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>4</testCaseAmount>
       </ReportItemDescription>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/data_driven_testing_ts_folder/country_ts_005/20240126_181638</reportLocation>
@@ -43,7 +43,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>4</testCaseAmount>
       </ReportItemDescription>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/data_driven_testing_ts_folder/deliveryadress_ts_003/20240126_181640</reportLocation>
@@ -53,7 +53,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>5</testCaseAmount>
       </ReportItemDescription>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/data_driven_testing_ts_folder/language_ts_004/20240126_181642</reportLocation>
@@ -63,7 +63,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>4</testCaseAmount>
       </ReportItemDescription>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/login_testsuite_folder/login_test_suite_001/20240126_181644</reportLocation>
@@ -73,7 +73,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>1</testCaseAmount>
       </ReportItemDescription>
       <ReportItemDescription>
          <reportLocation>Reports/20240126_181631/variable_test_suite_folder/local_variable_test_suite/20240126_181646</reportLocation>
@@ -83,7 +83,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </runConfigDescription>
-         <testCaseAmount>0</testCaseAmount>
+         <testCaseAmount>1</testCaseAmount>
       </ReportItemDescription>
    </reportItemDescriptions>
    <testSuiteCollectionId>Test Suites/test_suite_collection</testSuiteCollectionId>
