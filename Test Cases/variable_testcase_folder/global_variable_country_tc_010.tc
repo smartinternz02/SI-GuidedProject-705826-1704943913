@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>global_variable_country_tc_010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdc5bd18-1568-4310-a4f2-3f4bd6d8fb66</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54e23670-ebd5-4193-8103-5d0d1154e7a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.location</defaultValue>
+      <description></description>
+      <id>54e23670-ebd5-4193-8103-5d0d1154e7a0</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+</TestCaseEntity>

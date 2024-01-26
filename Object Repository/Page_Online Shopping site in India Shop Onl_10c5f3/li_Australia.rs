@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Australia</name>
+   <tag></tag>
+   <elementGuidId>68aa1bb3-28e1-4c58-9120-db01e81aad5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.navFooterLine.navFooterLinkLine.navFooterPadItemLine > ul > li.nav_first</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>0ea710b6-faa9-4ae5-9ea6-b35bd007903f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav_first</value>
+      <webElementGuid>75ed8eaa-b34d-4b08-a11d-f42641130647</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Australia</value>
+      <webElementGuid>16852e81-3d86-4e66-8aeb-709b406deec4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterPadItemLine&quot;]/ul[1]/li[@class=&quot;nav_first&quot;]</value>
+      <webElementGuid>1c38b145-ce8e-48b7-bba8-a79928f5b946</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/ul/li</value>
+      <webElementGuid>bcf4c398-c568-496b-98b2-3dfd9174e754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ul/li</value>
+      <webElementGuid>28f33fbe-426f-48ea-948f-a7ec2aa991b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Australia' or . = 'Australia')]</value>
+      <webElementGuid>27e17642-0f2a-4217-8064-8e3b32241d7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

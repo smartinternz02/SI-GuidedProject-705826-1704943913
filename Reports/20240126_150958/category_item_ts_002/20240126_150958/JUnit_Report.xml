@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="category_item_ts_002" time="120.332" tests="4" failures="0" errors="0">
+   <testsuite name="category_item_ts_002" tests="4" failures="0" errors="0" time="120.332" skipped="0" timestamp="26-01-2024T15:10:04" hostname="cheta - 192.168.1.36" id="Test Suites/category_item_ts_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_150958\\category_item_ts_002\\20240126_150958"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_150958\\category_item_ts_002\\20240126_150958\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="d9c34fbd0939e3bed9a3da41f1f66ea8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/category_item_tc_002" time="18.428" classname="Test Cases/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T15:10:05 - [TEST_CASE][PASSED] - Test Cases/category_item_tc_002: Test Cases/category_item_tc_002
+
+26-01-2024T15:10:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T15:10:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T15:10:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T15:10:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T15:10:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:10:10 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:10:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=baby' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:10:13 - [MESSAGE][PASSED] - All options with value 'search-alias=baby' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:10:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'walker' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:10:15 - [MESSAGE][PASSED] - Text 'walker' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T15:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/category_item_tc_002" time="28.812" classname="Test Cases/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T15:10:23 - [TEST_CASE][PASSED] - Test Cases/category_item_tc_002: Test Cases/category_item_tc_002
+
+26-01-2024T15:10:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T15:10:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T15:10:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T15:10:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T15:10:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T15:10:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:10:27 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:10:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=electronics' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:10:37 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:10:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'switch' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:10:38 - [MESSAGE][PASSED] - Text 'switch' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T15:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/category_item_tc_002" time="43.079" classname="Test Cases/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T15:10:52 - [TEST_CASE][PASSED] - Test Cases/category_item_tc_002: Test Cases/category_item_tc_002
+
+26-01-2024T15:10:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T15:10:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T15:10:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T15:10:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T15:10:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T15:10:54 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:10:55 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:10:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=beauty' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:11:28 - [MESSAGE][PASSED] - All options with value 'search-alias=beauty' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'lip stick' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:11:29 - [MESSAGE][PASSED] - Text 'lip stick' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T15:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/category_item_tc_002" time="29.361" classname="Test Cases/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T15:11:35 - [TEST_CASE][PASSED] - Test Cases/category_item_tc_002: Test Cases/category_item_tc_002
+
+26-01-2024T15:11:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T15:11:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T15:11:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T15:11:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T15:11:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T15:11:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:11:39 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T15:11:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=watches' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:11:55 - [MESSAGE][PASSED] - All options with value 'search-alias=watches' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T15:11:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'rolex' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:11:56 - [MESSAGE][PASSED] - Text 'rolex' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T15:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T15:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T15:10:04 - [TEST_SUITE][PASSED] - category_item_ts_002: Test Cases/category_item_tc_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

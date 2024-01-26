@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+category_item_ts_002,Chrome 120.0.0.0,,,26-01-2024 15:10:04,26-01-2024 15:12:04,2m - 0.332s,PASSED
+,,,,,,,
+Test Cases/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 15:10:05,26-01-2024 15:10:23,18.428s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 15:10:05,26-01-2024 15:10:08,3.412s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 15:10:08,26-01-2024 15:10:10,1.852s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 15:10:10,26-01-2024 15:10:13,2.849s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 15:10:13,26-01-2024 15:10:15,1.957s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 15:10:15,26-01-2024 15:10:23,7.862s,PASSED
+,,,,,,,
+Test Cases/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 15:10:23,26-01-2024 15:10:52,28.812s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 15:10:23,26-01-2024 15:10:25,2.183s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 15:10:25,26-01-2024 15:10:27,1.262s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 15:10:27,26-01-2024 15:10:37,10.726s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 15:10:37,26-01-2024 15:10:38,0.968s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 15:10:38,26-01-2024 15:10:52,13.598s,PASSED
+,,,,,,,
+Test Cases/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 15:10:52,26-01-2024 15:11:35,43.079s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 15:10:52,26-01-2024 15:10:54,2.026s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 15:10:54,26-01-2024 15:10:55,1.178s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 15:10:55,26-01-2024 15:11:28,32.926s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 15:11:28,26-01-2024 15:11:29,0.866s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 15:11:29,26-01-2024 15:11:35,6.036s,PASSED
+,,,,,,,
+Test Cases/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 15:11:35,26-01-2024 15:12:04,29.361s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 15:11:35,26-01-2024 15:11:37,1.954s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 15:11:37,26-01-2024 15:11:39,2.286s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 15:11:39,26-01-2024 15:11:55,15.159s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 15:11:55,26-01-2024 15:11:56,1.394s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 15:11:56,26-01-2024 15:12:04,8.533s,PASSED

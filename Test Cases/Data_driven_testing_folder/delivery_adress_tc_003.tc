@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>delivery_adress_tc_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0e98d6a-e050-4a1d-bcba-491de7a0f206</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d338f53d-6930-488f-8513-d04ffe35ed93</id>
+      <masked>false</masked>
+      <name>pincode</name>
+   </variable>
+</TestCaseEntity>

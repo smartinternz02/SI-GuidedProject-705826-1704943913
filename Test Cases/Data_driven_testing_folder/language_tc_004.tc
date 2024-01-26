@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>language_tc_004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba9a03e2-109e-4fb9-a047-9b3dffb83381</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a9a98f1-1fe5-4364-9084-3534cfc06c26</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a9a98f1-1fe5-4364-9084-3534cfc06c26</id>
+      <masked>false</masked>
+      <name>language</name>
+   </variable>
+</TestCaseEntity>

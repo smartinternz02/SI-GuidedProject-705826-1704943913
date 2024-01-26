@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>local_variable_tc_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5c0c4dc-3b46-4f9d-8d9e-ab4f9d8490ac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fee05ec-a090-4807-b03c-222252f3999f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'533291'</defaultValue>
+      <description></description>
+      <id>3fee05ec-a090-4807-b03c-222252f3999f</id>
+      <masked>false</masked>
+      <name>pincode</name>
+   </variable>
+</TestCaseEntity>

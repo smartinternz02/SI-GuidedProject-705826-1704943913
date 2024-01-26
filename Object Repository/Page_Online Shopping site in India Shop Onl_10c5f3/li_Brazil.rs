@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Brazil</name>
+   <tag></tag>
+   <elementGuidId>4da15ddf-4b5d-460a-8caf-f99390a6b6fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.navFooterLine.navFooterLinkLine.navFooterPadItemLine > ul > li:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>85c7ee2c-81cd-473b-b10c-a77178dcece8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Brazil</value>
+      <webElementGuid>f89d158d-af8e-44a8-8c3d-6c8bd515d09c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterPadItemLine&quot;]/ul[1]/li[2]</value>
+      <webElementGuid>e368f118-da8f-494b-8287-bee9837b9768</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/ul/li[2]</value>
+      <webElementGuid>9e2b32dd-f87c-4898-95c1-aaf8ab5d1c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ul/li[2]</value>
+      <webElementGuid>df80a833-d195-435c-a3ef-812249d6ac47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Brazil' or . = 'Brazil')]</value>
+      <webElementGuid>365103c4-438a-43c5-add1-74a6aec68284</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>global_variable_adress_tc_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45decfbb-676f-4fec-bed1-2aaaa56046d9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6492cf4-744f-4016-b4a4-1ec161154102</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.pincode</defaultValue>
+      <description></description>
+      <id>c6492cf4-744f-4016-b4a4-1ec161154102</id>
+      <masked>false</masked>
+      <name>pincode</name>
+   </variable>
+</TestCaseEntity>

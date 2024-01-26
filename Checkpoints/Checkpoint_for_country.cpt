@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_for_country</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/country_change_testdata_005</source-url>
+   </source-info>
+   <taken-date>2024-01-26T15:55:23.513+05:30</taken-date>
+   <column-names>
+      <column-name>location</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Australia",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Brazil",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Canada",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "China",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
