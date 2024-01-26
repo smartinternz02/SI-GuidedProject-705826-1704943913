@@ -18,9 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.amazon.in/')
 
 WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in'))
 
@@ -31,5 +28,6 @@ WebUI.click(findTestObject('Object Repository/Page_Amazon Sign In/inputcontinue'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign In/input_password'), 'UGS/iI2z1DK07+Fzc6T8jw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Sign In/inputsignInSubmit'))
+
 
 

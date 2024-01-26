@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.amazon.in/')
-
 WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN'))
 
-WebUI.click(findTestObject('Object Repository/Page_Change Language Settings/'+language))
-
-
+WebUI.click(findTestObject('Object Repository/Page_Change Language Settings/' + language))
 
 WebUI.click(findTestObject('Object Repository/Page_Change Language Settings/input_a-button-input'))
 

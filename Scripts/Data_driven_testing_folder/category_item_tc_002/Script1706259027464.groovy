@@ -17,13 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.amazon.in/')
-
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'), 
-    'search-alias='+category, true)
+    'search-alias=' + category, true)
 
 WebUI.setText(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'), 
     item)

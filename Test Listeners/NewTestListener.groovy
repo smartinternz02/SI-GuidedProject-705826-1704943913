@@ -22,16 +22,17 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class TestListener_001 {
+class NewTestListener {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-	//	println testCaseContext.getTestCaseId()
+		//println testCaseContext.getTestCaseId()
 		//println testCaseContext.getTestCaseVariables()
 	
+		
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.in/')
@@ -43,27 +44,8 @@ WebUI.navigateToUrl('https://www.amazon.in/')
 	 */
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-	//	println testCaseContext.getTestCaseId()
+		//println testCaseContext.getTestCaseId()
 		//println testCaseContext.getTestCaseStatus()
-
-WebUI.closeBrowser()
+	WebUI.closeBrowser()
 	}
-
-	/**
-	 * Executes before every test suite starts.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 */
-	//@BeforeTestSuite
-	//def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		//println testSuiteContext.getTestSuiteId()
-	//}
-
-	/**
-	 * Executes after every test suite ends.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 */
-//	@AfterTestSuite
-	//def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		//println testSuiteContext.getTestSuiteId()
-	//}
 }
