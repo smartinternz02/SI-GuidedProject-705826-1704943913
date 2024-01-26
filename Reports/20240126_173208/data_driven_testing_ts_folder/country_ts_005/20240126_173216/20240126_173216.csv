@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+country_ts_005,,,,26-01-2024 17:32:57,26-01-2024 17:33:25,28.017s,FAILED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 17:33:11,26-01-2024 17:33:13,1.922s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:33:11,26-01-2024 17:33:13,1.849s,FAILED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 17:33:16,26-01-2024 17:33:17,0.506s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:33:16,26-01-2024 17:33:17,0.456s,FAILED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 17:33:20,26-01-2024 17:33:21,1.275s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:33:20,26-01-2024 17:33:21,1.139s,FAILED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 17:33:24,26-01-2024 17:33:25,1.159s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:33:24,26-01-2024 17:33:25,1.007s,FAILED

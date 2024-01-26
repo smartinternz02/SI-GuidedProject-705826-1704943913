@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkpoint_testsuite_country_009,,,,26-01-2024 17:32:41,26-01-2024 17:32:48,7.018s,PASSED
+,,,,,,,
+Test Cases/checkpoint/checkpoint_tc_country_009,,,,26-01-2024 17:32:42,26-01-2024 17:32:48,5.906s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_for_country""), true)",,,,26-01-2024 17:32:44,26-01-2024 17:32:48,3.856s,PASSED

@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+deliveryadress_ts_003,Chrome 120.0.0.0,,,26-01-2024 17:40:52,26-01-2024 17:43:58,3m - 5.336s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/delivery_adress_tc_003,Chrome 120.0.0.0,,,26-01-2024 17:43:08,26-01-2024 17:43:14,5.971s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:43:08,26-01-2024 17:43:09,1.171s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:43:09,26-01-2024 17:43:11,1.830s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,26-01-2024 17:43:11,26-01-2024 17:43:12,0.903s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,26-01-2024 17:43:12,26-01-2024 17:43:13,1.696s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 17:43:13,26-01-2024 17:43:14,0.350s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/delivery_adress_tc_003,Chrome 120.0.0.0,,,26-01-2024 17:43:14,26-01-2024 17:43:20,5.906s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:43:14,26-01-2024 17:43:15,1.213s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:43:15,26-01-2024 17:43:17,1.544s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,26-01-2024 17:43:17,26-01-2024 17:43:18,0.959s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,26-01-2024 17:43:18,26-01-2024 17:43:19,1.506s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 17:43:19,26-01-2024 17:43:20,0.665s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/delivery_adress_tc_003,Chrome 120.0.0.0,,,26-01-2024 17:43:20,26-01-2024 17:43:26,5.823s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:43:20,26-01-2024 17:43:21,1.159s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:43:21,26-01-2024 17:43:23,1.842s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,26-01-2024 17:43:23,26-01-2024 17:43:24,0.895s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,26-01-2024 17:43:24,26-01-2024 17:43:25,1.549s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 17:43:25,26-01-2024 17:43:26,0.357s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/delivery_adress_tc_003,Chrome 120.0.0.0,,,26-01-2024 17:43:26,26-01-2024 17:43:31,5.733s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:43:26,26-01-2024 17:43:27,1.165s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:43:27,26-01-2024 17:43:29,1.692s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,26-01-2024 17:43:29,26-01-2024 17:43:29,0.819s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,26-01-2024 17:43:29,26-01-2024 17:43:31,1.683s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 17:43:31,26-01-2024 17:43:31,0.348s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/delivery_adress_tc_003,Chrome 120.0.0.0,,,26-01-2024 17:43:31,26-01-2024 17:43:58,26.168s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:43:31,26-01-2024 17:43:33,1.152s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:43:33,26-01-2024 17:43:34,1.529s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,26-01-2024 17:43:34,26-01-2024 17:43:56,21.829s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,26-01-2024 17:43:56,26-01-2024 17:43:57,1.220s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 17:43:57,26-01-2024 17:43:58,0.418s,PASSED

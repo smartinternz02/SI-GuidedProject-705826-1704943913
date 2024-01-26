@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+language_ts_004,,,,26-01-2024 17:47:01,26-01-2024 17:47:14,12.867s,FAILED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 17:47:09,26-01-2024 17:47:09,0.133s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:47:09,26-01-2024 17:47:09,0.091s,FAILED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 17:47:10,26-01-2024 17:47:11,0.147s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:47:10,26-01-2024 17:47:11,0.092s,FAILED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 17:47:13,26-01-2024 17:47:13,0.264s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:47:13,26-01-2024 17:47:13,0.207s,FAILED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 17:47:14,26-01-2024 17:47:14,0.136s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:47:14,26-01-2024 17:47:14,0.091s,FAILED

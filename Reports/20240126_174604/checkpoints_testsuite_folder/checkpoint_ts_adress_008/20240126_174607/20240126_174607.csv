@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkpoint_ts_adress_008,,,,26-01-2024 17:46:38,26-01-2024 17:46:45,7.028s,PASSED
+,,,,,,,
+Test Cases/checkpoint/checkpoint_tc_adress_008,,,,26-01-2024 17:46:39,26-01-2024 17:46:45,5.917s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/checkpoint_for_delivery_adress""), true)",,,,26-01-2024 17:46:41,26-01-2024 17:46:45,4.343s,PASSED

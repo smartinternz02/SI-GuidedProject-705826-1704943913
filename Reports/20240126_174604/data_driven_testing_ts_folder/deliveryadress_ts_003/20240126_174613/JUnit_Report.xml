@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="deliveryadress_ts_003" time="85.928" tests="5" failures="0" errors="0">
+   <testsuite name="deliveryadress_ts_003" tests="5" failures="0" errors="0" time="85.928" skipped="0" timestamp="26-01-2024T17:47:01" hostname="cheta - 192.168.1.36" id="Test Suites/data_driven_testing_ts_folder/deliveryadress_ts_003">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_174604\\data_driven_testing_ts_folder\\deliveryadress_ts_003\\20240126_174613"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_174604\\data_driven_testing_ts_folder\\deliveryadress_ts_003\\20240126_174613\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="e51fceae072999f0ac3875695ccff0c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="16.54" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T17:47:02 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T17:47:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T17:47:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T17:47:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T17:47:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T17:47:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:47:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:47:18 - [MESSAGE][PASSED] - Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T17:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="8.315" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T17:47:19 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T17:47:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T17:47:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T17:47:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T17:47:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T17:47:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T17:47:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:22 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533294' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:47:27 - [MESSAGE][PASSED] - Text '533294' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T17:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="13.903" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T17:47:27 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T17:47:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T17:47:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T17:47:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T17:47:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T17:47:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T17:47:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:30 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:47:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533201' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:47:41 - [MESSAGE][PASSED] - Text '533201' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T17:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="40.309" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T17:47:41 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T17:47:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T17:47:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T17:47:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T17:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T17:47:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T17:47:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:44 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:47:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:48:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='glow-ingress-line2']'. Please recheck the objects properties to make sure the desired element is located. 
+
+26-01-2024T17:48:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location'. Try using Self-healing.
+
+26-01-2024T17:48:15 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[@id='glow-ingress-line2']'.
+
+26-01-2024T17:48:16 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='glow-ingress-block']/span[2]'.
+
+26-01-2024T17:48:16 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/span[2]'.
+
+26-01-2024T17:48:16 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[@id = 'glow-ingress-line2' and (text() = '
+                   Update location
+                ' or . = '
+                   Update location
+                ')]'.
+
+26-01-2024T17:48:19 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/cheta/git/SI-GuidedProject-705826-1704943913/SI-GuidedProject-705826-1704943913/SI-GuidedProject-705826-1704943913/Reports/Self-healing/Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location_BASIC.png
+
+26-01-2024T17:48:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' was broken. Propose an alternative one: '//*[@id = 'glow-ingress-line2' and (text() = '
+                   Update location
+                ' or . = '
+                   Update location
+                ')]'.
+
+26-01-2024T17:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533101' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:48:21 - [MESSAGE][PASSED] - Text '533101' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T17:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="5.994" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T17:48:21 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T17:48:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T17:48:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T17:48:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T17:48:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T17:48:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T17:48:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:48:24 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T17:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T17:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533245' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:48:27 - [MESSAGE][PASSED] - Text '533245' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T17:48:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T17:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T17:47:01 - [TEST_SUITE][PASSED] - deliveryadress_ts_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="checkpoint_testsuite_country_009" time="6.93" tests="1" failures="0" errors="0">
+   <testsuite name="checkpoint_testsuite_country_009" tests="1" failures="0" errors="0" time="6.93" skipped="0" timestamp="26-01-2024T17:46:37" hostname="cheta - 192.168.1.36" id="Test Suites/checkpoints_testsuite_folder/checkpoint_testsuite_country_009">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_174604\\checkpoints_testsuite_folder\\checkpoint_testsuite_country_009\\20240126_174605"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_174604\\checkpoints_testsuite_folder\\checkpoint_testsuite_country_009\\20240126_174605\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+      </properties>
+      <testcase name="Test Cases/checkpoint/checkpoint_tc_country_009" time="5.576" classname="Test Cases/checkpoint/checkpoint_tc_country_009" status="PASSED">
+         <system-out><![CDATA[26-01-2024T17:46:38 - [TEST_CASE][PASSED] - Test Cases/checkpoint/checkpoint_tc_country_009: Test Cases/checkpoint/checkpoint_tc_country_009
+
+26-01-2024T17:46:40 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/Checkpoint_for_country"), true): Checkpoint data and Source data are matched
+
+26-01-2024T17:46:44 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T17:46:37 - [TEST_SUITE][PASSED] - checkpoint_testsuite_country_009: Test Cases/checkpoint/checkpoint_tc_country_009]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

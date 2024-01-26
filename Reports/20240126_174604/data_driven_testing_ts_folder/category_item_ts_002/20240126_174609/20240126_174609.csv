@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+category_item_ts_002,Chrome 120.0.0.0,,,26-01-2024 17:46:41,26-01-2024 17:48:06,1m - 25.260s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:46:42,26-01-2024 17:47:17,35.062s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:46:44,26-01-2024 17:46:55,10.656s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:46:55,26-01-2024 17:46:57,2.493s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:46:57,26-01-2024 17:47:12,14.076s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:47:12,26-01-2024 17:47:15,3.501s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:47:15,26-01-2024 17:47:17,2.108s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:47:17,26-01-2024 17:47:33,15.712s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:47:17,26-01-2024 17:47:21,4.100s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:47:21,26-01-2024 17:47:24,2.480s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:47:24,26-01-2024 17:47:26,2.130s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:47:26,26-01-2024 17:47:27,0.705s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:47:27,26-01-2024 17:47:33,6.242s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:47:33,26-01-2024 17:47:46,12.791s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:47:33,26-01-2024 17:47:35,1.491s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:47:35,26-01-2024 17:47:36,1.758s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:47:36,26-01-2024 17:47:39,3.157s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:47:39,26-01-2024 17:47:40,0.997s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:47:40,26-01-2024 17:47:46,5.360s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:47:46,26-01-2024 17:48:06,20.098s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 17:47:46,26-01-2024 17:47:47,1.359s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 17:47:47,26-01-2024 17:47:49,1.692s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:47:49,26-01-2024 17:47:51,2.419s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:47:51,26-01-2024 17:47:53,1.427s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:47:53,26-01-2024 17:48:06,13.173s,PASSED

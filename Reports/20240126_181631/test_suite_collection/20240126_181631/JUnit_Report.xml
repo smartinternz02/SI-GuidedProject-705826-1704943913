@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_suite_collection" time="171.027" tests="21" failures="0" errors="0">
+   <testsuite name="checkpoint_testsuite_country_009" tests="1" failures="0" errors="0" time="8.51" skipped="0" timestamp="26-01-2024T18:17:01" hostname="cheta - 192.168.1.36" id="Test Suites/checkpoints_testsuite_folder/checkpoint_testsuite_country_009">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\checkpoints_testsuite_folder\\checkpoint_testsuite_country_009\\20240126_181632"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\checkpoints_testsuite_folder\\checkpoint_testsuite_country_009\\20240126_181632\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+      </properties>
+      <testcase name="Test Cases/checkpoint/checkpoint_tc_country_009" time="7.29" classname="Test Cases/checkpoint/checkpoint_tc_country_009" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:02 - [TEST_CASE][PASSED] - Test Cases/checkpoint/checkpoint_tc_country_009: Test Cases/checkpoint/checkpoint_tc_country_009
+
+26-01-2024T18:17:02 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at NewTestListener.sampleBeforeTestCase(NewTestListener.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273192589.run(TempTestSuite1706273192589.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeDriver(DriverFactory.java:666)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:387)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MUDRAGADA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 38 more
+
+
+26-01-2024T18:17:02 - [TEST_STEP][ERROR] - openBrowser(""): com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at NewTestListener.sampleBeforeTestCase(NewTestListener.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273192589.run(TempTestSuite1706273192589.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeDriver(DriverFactory.java:666)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:387)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MUDRAGADA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 38 more
+
+
+26-01-2024T18:17:04 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+26-01-2024T18:17:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:06 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at NewTestListener.sampleBeforeTestCase(NewTestListener.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273192589.run(TempTestSuite1706273192589.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeDriver(DriverFactory.java:666)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:387)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MUDRAGADA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 38 more
+)
+
+26-01-2024T18:17:07 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at NewTestListener.sampleBeforeTestCase(NewTestListener.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273192589.run(TempTestSuite1706273192589.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeDriver(DriverFactory.java:666)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:387)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MUDRAGADA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 38 more
+
+
+26-01-2024T18:17:07 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/Checkpoint_for_country"), true): Checkpoint data and Source data are matched
+
+26-01-2024T18:17:09 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+26-01-2024T18:17:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:17:01 - [TEST_SUITE][PASSED] - checkpoint_testsuite_country_009: Test Cases/checkpoint/checkpoint_tc_country_009]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="checkpoint_ts_adress_008" tests="1" failures="0" errors="0" time="14.053" skipped="0" timestamp="26-01-2024T18:17:02" hostname="cheta - 192.168.1.36" id="Test Suites/checkpoints_testsuite_folder/checkpoint_ts_adress_008">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\checkpoints_testsuite_folder\\checkpoint_ts_adress_008\\20240126_181634"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\checkpoints_testsuite_folder\\checkpoint_ts_adress_008\\20240126_181634\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="23cf6d630f0acd18a6551d46ef38120f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/checkpoint/checkpoint_tc_adress_008" time="13.196" classname="Test Cases/checkpoint/checkpoint_tc_adress_008" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:03 - [TEST_CASE][PASSED] - Test Cases/checkpoint/checkpoint_tc_adress_008: Test Cases/checkpoint/checkpoint_tc_adress_008
+
+26-01-2024T18:17:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:12 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/checkpoint_for_delivery_adress"), true): Checkpoint data and Source data are matched
+
+26-01-2024T18:17:15 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+26-01-2024T18:17:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:17:02 - [TEST_SUITE][PASSED] - checkpoint_ts_adress_008: Test Cases/checkpoint/checkpoint_tc_adress_008]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="category_item_ts_002" tests="4" failures="0" errors="0" time="128.186" skipped="0" timestamp="26-01-2024T18:17:03" hostname="cheta - 192.168.1.36" id="Test Suites/data_driven_testing_ts_folder/category_item_ts_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\category_item_ts_002\\20240126_181636"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\category_item_ts_002\\20240126_181636\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\category_item_ts_002\\20240126_181636\\1706273309320.png"/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="63be12b6cd0286f87da1cea30e4c4d36"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data_driven_testing_folder/category_item_tc_002" time="25.25" classname="Test Cases/Data_driven_testing_folder/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:04 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/category_item_tc_002: Test Cases/Data_driven_testing_folder/category_item_tc_002
+
+26-01-2024T18:17:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=baby' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:17:18 - [MESSAGE][PASSED] - All options with value 'search-alias=baby' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:17:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'walker' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:17:19 - [MESSAGE][PASSED] - Text 'walker' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:17:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/category_item_tc_002" time="21.633" classname="Test Cases/Data_driven_testing_folder/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:29 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/category_item_tc_002: Test Cases/Data_driven_testing_folder/category_item_tc_002
+
+26-01-2024T18:17:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:33 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=electronics' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:17:41 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:17:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'switch' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:17:42 - [MESSAGE][PASSED] - Text 'switch' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:17:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/category_item_tc_002" time="18.792" classname="Test Cases/Data_driven_testing_folder/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:30 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/category_item_tc_002: Test Cases/Data_driven_testing_folder/category_item_tc_002
+
+26-01-2024T18:18:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:34 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=beauty' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:18:37 - [MESSAGE][PASSED] - All options with value 'search-alias=beauty' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'lip stick' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:18:39 - [MESSAGE][PASSED] - Text 'lip stick' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:18:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/category_item_tc_002" time="22.439" classname="Test Cases/Data_driven_testing_folder/category_item_tc_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:49 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/category_item_tc_002: Test Cases/Data_driven_testing_folder/category_item_tc_002
+
+26-01-2024T18:18:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:51 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=" + category, true): All options with value 'search-alias=watches' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:19:01 - [MESSAGE][PASSED] - All options with value 'search-alias=watches' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+26-01-2024T18:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'rolex' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:19:05 - [MESSAGE][PASSED] - Text 'rolex' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+26-01-2024T18:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+26-01-2024T18:19:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:19:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:19:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:17:03 - [TEST_SUITE][FAILED] - category_item_ts_002: Test Cases/Data_driven_testing_folder/category_item_tc_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=beauty' of object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at category_item_tc_002.run(category_item_tc_002:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273196302.run(TempTestSuite1706273196302.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89' located by '//select[@id='searchDropdownBox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[26-01-2024T18:17:03 - [TEST_SUITE][FAILED] - category_item_ts_002: Test Cases/Data_driven_testing_folder/category_item_tc_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=beauty' of object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at category_item_tc_002.run(category_item_tc_002:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273196302.run(TempTestSuite1706273196302.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89' located by '//select[@id='searchDropdownBox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+   <testsuite name="country_ts_005" tests="4" failures="0" errors="0" time="68.604" skipped="0" timestamp="26-01-2024T18:17:05" hostname="cheta - 192.168.1.36" id="Test Suites/data_driven_testing_ts_folder/country_ts_005">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\country_ts_005\\20240126_181638"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\country_ts_005\\20240126_181638\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="3709ea59eb87182534e19681dd4fb28d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/variable_testcase_folder/global_variable_country_tc_010" time="24.245" classname="Test Cases/variable_testcase_folder/global_variable_country_tc_010" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:06 - [TEST_CASE][PASSED] - Test Cases/variable_testcase_folder/global_variable_country_tc_010: Test Cases/variable_testcase_folder/global_variable_country_tc_010
+
+26-01-2024T18:17:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:14 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/Australia' is clicked on
+
+26-01-2024T18:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/Australia' is clicked on
+
+26-01-2024T18:17:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/variable_testcase_folder/global_variable_country_tc_010" time="11.478" classname="Test Cases/variable_testcase_folder/global_variable_country_tc_010" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:30 - [TEST_CASE][PASSED] - Test Cases/variable_testcase_folder/global_variable_country_tc_010: Test Cases/variable_testcase_folder/global_variable_country_tc_010
+
+26-01-2024T18:17:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:35 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/Brazil' is clicked on
+
+26-01-2024T18:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/Brazil' is clicked on
+
+26-01-2024T18:17:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/variable_testcase_folder/global_variable_country_tc_010" time="9.115" classname="Test Cases/variable_testcase_folder/global_variable_country_tc_010" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:42 - [TEST_CASE][PASSED] - Test Cases/variable_testcase_folder/global_variable_country_tc_010: Test Cases/variable_testcase_folder/global_variable_country_tc_010
+
+26-01-2024T18:17:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:46 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/Canada' is clicked on
+
+26-01-2024T18:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/Canada' is clicked on
+
+26-01-2024T18:17:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/variable_testcase_folder/global_variable_country_tc_010" time="22.871" classname="Test Cases/variable_testcase_folder/global_variable_country_tc_010" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:51 - [TEST_CASE][PASSED] - Test Cases/variable_testcase_folder/global_variable_country_tc_010: Test Cases/variable_testcase_folder/global_variable_country_tc_010
+
+26-01-2024T18:17:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:55 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/China' is clicked on
+
+26-01-2024T18:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/China' is clicked on
+
+26-01-2024T18:18:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:17:05 - [TEST_SUITE][PASSED] - country_ts_005: Test Cases/variable_testcase_folder/global_variable_country_tc_010]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="deliveryadress_ts_003" tests="5" failures="0" errors="0" time="55.458" skipped="0" timestamp="26-01-2024T18:17:27" hostname="cheta - 192.168.1.36" id="Test Suites/data_driven_testing_ts_folder/deliveryadress_ts_003">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\deliveryadress_ts_003\\20240126_181640"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\deliveryadress_ts_003\\20240126_181640\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="067749c283bfce535a33bb638b653849"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="16.338" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:28 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T18:17:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:38 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:17:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:17:42 - [MESSAGE][PASSED] - Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:17:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="9.309" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:45 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T18:17:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:48 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533294' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:17:53 - [MESSAGE][PASSED] - Text '533294' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:17:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:17:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:17:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="11.815" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:17:54 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T18:17:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:17:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:17:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:17:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:17:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:17:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:02 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533201' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:05 - [MESSAGE][PASSED] - Text '533201' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="9.141" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:06 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T18:18:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:11 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533101' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:14 - [MESSAGE][PASSED] - Text '533101' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" time="7.95" classname="Test Cases/Data_driven_testing_folder/delivery_adress_tc_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:15 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/delivery_adress_tc_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003
+
+26-01-2024T18:18:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:19 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533245' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:22 - [MESSAGE][PASSED] - Text '533245' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:17:27 - [TEST_SUITE][PASSED] - deliveryadress_ts_003: Test Cases/Data_driven_testing_folder/delivery_adress_tc_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="language_ts_004" tests="4" failures="0" errors="0" time="127.672" skipped="0" timestamp="26-01-2024T18:17:32" hostname="cheta - 192.168.1.36" id="Test Suites/data_driven_testing_ts_folder/language_ts_004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\language_ts_004\\20240126_181642"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\language_ts_004\\20240126_181642\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\language_ts_004\\20240126_181642\\1706273299699.png, C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\data_driven_testing_ts_folder\\language_ts_004\\20240126_181642\\1706273373745.png"/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="919d7d5553d01b4136a40c320b834a27"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data_driven_testing_folder/language_tc_004" time="15.815" classname="Test Cases/Data_driven_testing_folder/language_tc_004" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:20 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/language_tc_004: Test Cases/Data_driven_testing_folder/language_tc_004
+
+26-01-2024T18:18:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:25 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/" + language)): Object: 'Object Repository/Page_Change Language Settings/Malayalam' is clicked on
+
+26-01-2024T18:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/Malayalam' is clicked on
+
+26-01-2024T18:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:18:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/language_tc_004" time="8.616" classname="Test Cases/Data_driven_testing_folder/language_tc_004" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:36 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/language_tc_004: Test Cases/Data_driven_testing_folder/language_tc_004
+
+26-01-2024T18:18:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:39 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/" + language)): Object: 'Object Repository/Page_Change Language Settings/English' is clicked on
+
+26-01-2024T18:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/English' is clicked on
+
+26-01-2024T18:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:18:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/language_tc_004" time="11.064" classname="Test Cases/Data_driven_testing_folder/language_tc_004" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:45 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/language_tc_004: Test Cases/Data_driven_testing_folder/language_tc_004
+
+26-01-2024T18:18:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:51 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/" + language)): Object: 'Object Repository/Page_Change Language Settings/Telugu' is clicked on
+
+26-01-2024T18:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/Telugu' is clicked on
+
+26-01-2024T18:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:18:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_driven_testing_folder/language_tc_004" time="6.119" classname="Test Cases/Data_driven_testing_folder/language_tc_004" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:19:34 - [TEST_CASE][PASSED] - Test Cases/Data_driven_testing_folder/language_tc_004: Test Cases/Data_driven_testing_folder/language_tc_004
+
+26-01-2024T18:19:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:19:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:19:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:19:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:19:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:19:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:19:36 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:19:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+26-01-2024T18:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/" + language)): Object: 'Object Repository/Page_Change Language Settings/Tamil' is clicked on
+
+26-01-2024T18:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/Tamil' is clicked on
+
+26-01-2024T18:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Language Settings/input_a-button-input' is clicked on
+
+26-01-2024T18:19:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:19:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:19:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:17:32 - [TEST_SUITE][FAILED] - language_ts_004: Test Cases/Data_driven_testing_folder/language_tc_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at language_tc_004.run(language_tc_004:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273202597.run(TempTestSuite1706273202597.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' located by '//a[@id='icp-nav-flyout']/span/span[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[26-01-2024T18:17:32 - [TEST_SUITE][FAILED] - language_ts_004: Test Cases/Data_driven_testing_folder/language_tc_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at language_tc_004.run(language_tc_004:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706273202597.run(TempTestSuite1706273202597.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' located by '//a[@id='icp-nav-flyout']/span/span[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+   <testsuite name="login_test_suite_001" tests="1" failures="0" errors="0" time="46.207" skipped="0" timestamp="26-01-2024T18:18:26" hostname="cheta - 192.168.1.36" id="Test Suites/login_testsuite_folder/login_test_suite_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\login_testsuite_folder\\login_test_suite_001\\20240126_181644"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\login_testsuite_folder\\login_test_suite_001\\20240126_181644\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="8e41e1a1dd37b8d3f26e7555a441edc0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login and logout folder/login_tc_001" time="45.785" classname="Test Cases/login and logout folder/login_tc_001" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:27 - [TEST_CASE][PASSED] - Test Cases/login and logout folder/login_tc_001: Test Cases/login and logout folder/login_tc_001
+
+26-01-2024T18:18:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:33 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in' is clicked on
+
+26-01-2024T18:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in' is clicked on
+
+26-01-2024T18:19:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Amazon Sign In/input_email"), "manideepmudragada9@gmail.com"): Text 'manideepmudragada9@gmail.com' is set on object 'Object Repository/Page_Amazon Sign In/input_email'
+
+26-01-2024T18:19:08 - [MESSAGE][PASSED] - Text 'manideepmudragada9@gmail.com' is set on object 'Object Repository/Page_Amazon Sign In/input_email'
+
+26-01-2024T18:19:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign In/inputcontinue")): Object: 'Object Repository/Page_Amazon Sign In/inputcontinue' is clicked on
+
+26-01-2024T18:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign In/inputcontinue' is clicked on
+
+26-01-2024T18:19:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Amazon Sign In/input_password"), "UGS/iI2z1DK07+Fzc6T8jw=="): Text ****** has been set on object 'Object Repository/Page_Amazon Sign In/input_password'
+
+26-01-2024T18:19:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Amazon Sign In/input_password'
+
+26-01-2024T18:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign In/inputsignInSubmit")): Object: 'Object Repository/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+26-01-2024T18:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+26-01-2024T18:19:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:19:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:19:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:18:26 - [TEST_SUITE][PASSED] - login_test_suite_001: Test Cases/login and logout folder/login_tc_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="local_variable_test_suite" tests="1" failures="0" errors="0" time="22.264" skipped="0" timestamp="26-01-2024T18:18:36" hostname="cheta - 192.168.1.36" id="Test Suites/variable_test_suite_folder/local_variable_test_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\variable_test_suite_folder\\local_variable_test_suite\\20240126_181646"/>
+         <property name="logFiles" value="C:\\Users\\cheta\\git\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\SI-GuidedProject-705826-1704943913\\Reports\\20240126_181631\\variable_test_suite_folder\\local_variable_test_suite\\20240126_181646\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cheta - 192.168.1.36"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="2096e2ca13115d51917c98ab8468ec75"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/variable_testcase_folder/local_variable_tc_006" time="21.738" classname="Test Cases/variable_testcase_folder/local_variable_tc_006" status="PASSED">
+         <system-out><![CDATA[26-01-2024T18:18:36 - [TEST_CASE][PASSED] - Test Cases/variable_testcase_folder/local_variable_tc_006: Test Cases/variable_testcase_folder/local_variable_tc_006
+
+26-01-2024T18:18:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:43 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T18:18:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-01-2024T18:18:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T18:18:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T18:18:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T18:18:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:50 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+26-01-2024T18:18:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+26-01-2024T18:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:56 - [MESSAGE][PASSED] - Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+26-01-2024T18:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+26-01-2024T18:18:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+26-01-2024T18:18:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T18:18:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T18:18:36 - [TEST_SUITE][PASSED] - local_variable_test_suite: Test Cases/variable_testcase_folder/local_variable_tc_006]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

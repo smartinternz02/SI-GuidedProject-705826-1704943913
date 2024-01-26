@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location",
+      "brokenLocator": "//span[@id\u003d\u0027glow-ingress-line2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027glow-ingress-line2\u0027 and (text() \u003d \u0027\n                   Update location\n                \u0027 or . \u003d \u0027\n                   Update location\n                \u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20240126_174604/data_driven_testing_ts_folder/deliveryadress_ts_003/20240126_174613/Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location_BASIC.png"
+    }
+  ]
+}

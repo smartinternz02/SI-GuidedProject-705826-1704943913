@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+category_item_ts_002,Chrome 120.0.0.0,,,26-01-2024 17:57:51,26-01-2024 17:59:04,1m - 13.077s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:57:51,26-01-2024 17:58:17,25.366s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 17:57:51,26-01-2024 17:57:55,3.355s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:57:55,26-01-2024 17:58:06,11.208s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:58:06,26-01-2024 17:58:07,0.826s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:58:07,26-01-2024 17:58:16,9.294s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 17:58:16,26-01-2024 17:58:17,0.501s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:58:17,26-01-2024 17:58:27,10.343s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 17:58:17,26-01-2024 17:58:19,2.620s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:58:19,26-01-2024 17:58:21,1.928s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:58:21,26-01-2024 17:58:22,0.792s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:58:22,26-01-2024 17:58:27,4.723s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 17:58:27,26-01-2024 17:58:27,0.251s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:58:27,26-01-2024 17:58:39,11.686s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 17:58:27,26-01-2024 17:58:30,2.339s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:58:30,26-01-2024 17:58:31,1.812s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:58:31,26-01-2024 17:58:32,0.784s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:58:32,26-01-2024 17:58:39,6.466s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 17:58:39,26-01-2024 17:58:39,0.265s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/category_item_tc_002,Chrome 120.0.0.0,,,26-01-2024 17:58:39,26-01-2024 17:59:04,25.286s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 17:58:39,26-01-2024 17:58:41,2.140s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias="" + category, true)",Chrome 120.0.0.0,,,26-01-2024 17:58:41,26-01-2024 17:58:51,9.983s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), item)",Chrome 120.0.0.0,,,26-01-2024 17:58:51,26-01-2024 17:58:52,1.338s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 17:58:52,26-01-2024 17:59:04,11.542s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 17:59:04,26-01-2024 17:59:04,0.266s,PASSED

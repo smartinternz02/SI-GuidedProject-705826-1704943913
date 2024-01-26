@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+country_ts_005,,,,26-01-2024 18:11:34,26-01-2024 18:11:38,3.783s,FAILED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 18:11:36,26-01-2024 18:11:37,0.166s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:11:36,26-01-2024 18:11:36,0.054s,ERROR
+"click(findTestObject(""Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",,,,26-01-2024 18:11:36,26-01-2024 18:11:37,0.075s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.008s,PASSED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.093s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.030s,ERROR
+"click(findTestObject(""Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.038s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.005s,PASSED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.093s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.026s,ERROR
+"click(findTestObject(""Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.046s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:11:37,26-01-2024 18:11:37,0.005s,PASSED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 18:11:38,26-01-2024 18:11:38,0.087s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:11:38,26-01-2024 18:11:38,0.023s,ERROR
+"click(findTestObject(""Object Repository/country_object/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",,,,26-01-2024 18:11:38,26-01-2024 18:11:38,0.041s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:11:38,26-01-2024 18:11:38,0.004s,PASSED

@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location",
+      "brokenLocator": "//span[@id\u003d\u0027glow-ingress-line2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027glow-ingress-line2\u0027 and (text() \u003d \u0027\n                   Update location\n                \u0027 or . \u003d \u0027\n                   Update location\n                \u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location_BASIC.png"
+    }
+  ]
 }

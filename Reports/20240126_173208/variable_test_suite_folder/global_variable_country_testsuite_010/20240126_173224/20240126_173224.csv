@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+global_variable_country_testsuite_010,,,,26-01-2024 17:33:11,26-01-2024 17:33:27,15.457s,FAILED
+,,,,,,,
+Test Cases/variable_testcase_folder/global_variable_country_tc_010,,,,26-01-2024 17:33:25,26-01-2024 17:33:27,1.377s,FAILED
+"openBrowser("""")",,,,26-01-2024 17:33:26,26-01-2024 17:33:27,0.946s,FAILED

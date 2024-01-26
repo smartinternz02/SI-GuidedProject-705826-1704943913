@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+language_ts_004,Chrome 120.0.0.0,,,26-01-2024 18:17:32,26-01-2024 18:19:40,2m - 7.672s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,Chrome 120.0.0.0,,,26-01-2024 18:18:20,26-01-2024 18:18:36,15.815s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 18:18:20,26-01-2024 18:18:25,4.527s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",Chrome 120.0.0.0,,,26-01-2024 18:18:25,26-01-2024 18:18:29,4.389s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/"" + language))",Chrome 120.0.0.0,,,26-01-2024 18:18:29,26-01-2024 18:18:33,4.046s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 18:18:33,26-01-2024 18:18:36,2.205s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 18:18:36,26-01-2024 18:18:36,0.591s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,Chrome 120.0.0.0,,,26-01-2024 18:18:36,26-01-2024 18:18:45,8.616s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 18:18:36,26-01-2024 18:18:39,2.351s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",Chrome 120.0.0.0,,,26-01-2024 18:18:39,26-01-2024 18:18:42,3.249s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/"" + language))",Chrome 120.0.0.0,,,26-01-2024 18:18:42,26-01-2024 18:18:43,1.184s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 18:18:43,26-01-2024 18:18:44,1.221s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 18:18:44,26-01-2024 18:18:45,0.530s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,Chrome 120.0.0.0,,,26-01-2024 18:18:45,26-01-2024 18:18:56,11.064s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 18:18:45,26-01-2024 18:18:51,6.174s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",Chrome 120.0.0.0,,,26-01-2024 18:18:51,26-01-2024 18:18:53,2.265s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/"" + language))",Chrome 120.0.0.0,,,26-01-2024 18:18:53,26-01-2024 18:18:55,1.183s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 18:18:55,26-01-2024 18:18:55,0.873s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 18:18:55,26-01-2024 18:18:56,0.505s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,Chrome 120.0.0.0,,,26-01-2024 18:19:34,26-01-2024 18:19:40,6.119s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 18:19:34,26-01-2024 18:19:36,2.515s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",Chrome 120.0.0.0,,,26-01-2024 18:19:36,26-01-2024 18:19:38,1.483s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/"" + language))",Chrome 120.0.0.0,,,26-01-2024 18:19:38,26-01-2024 18:19:39,0.987s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Language Settings/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 18:19:39,26-01-2024 18:19:40,0.909s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 18:19:40,26-01-2024 18:19:40,0.202s,PASSED

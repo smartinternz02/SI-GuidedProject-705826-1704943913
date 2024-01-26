@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+local_variable_test_suite,Chrome 120.0.0.0,,,26-01-2024 18:13:56,26-01-2024 18:14:47,50.905s,PASSED
+,,,,,,,
+Test Cases/variable_testcase_folder/local_variable_tc_006,Chrome 120.0.0.0,,,26-01-2024 18:14:39,26-01-2024 18:14:47,8.134s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 18:14:39,26-01-2024 18:14:41,2.368s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 18:14:41,26-01-2024 18:14:43,1.139s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,26-01-2024 18:14:43,26-01-2024 18:14:44,1.522s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,26-01-2024 18:14:44,26-01-2024 18:14:45,0.875s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,26-01-2024 18:14:45,26-01-2024 18:14:47,1.618s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,26-01-2024 18:14:47,26-01-2024 18:14:47,0.345s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 18:14:47,26-01-2024 18:14:47,0.222s,PASSED

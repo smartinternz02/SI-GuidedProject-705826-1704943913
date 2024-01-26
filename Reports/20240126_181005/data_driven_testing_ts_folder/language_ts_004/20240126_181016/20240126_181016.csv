@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+language_ts_004,,,,26-01-2024 18:13:28,26-01-2024 18:13:32,3.481s,FAILED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 18:13:30,26-01-2024 18:13:30,0.149s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:13:30,26-01-2024 18:13:30,0.045s,ERROR
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",,,,26-01-2024 18:13:30,26-01-2024 18:13:30,0.069s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:13:30,26-01-2024 18:13:30,0.006s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.105s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.029s,ERROR
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.043s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.005s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.101s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.023s,ERROR
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.043s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:13:31,26-01-2024 18:13:31,0.007s,PASSED
+,,,,,,,
+Test Cases/Data_driven_testing_folder/language_tc_004,,,,26-01-2024 18:13:32,26-01-2024 18:13:32,0.106s,FAILED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:13:32,26-01-2024 18:13:32,0.030s,ERROR
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN""))",,,,26-01-2024 18:13:32,26-01-2024 18:13:32,0.056s,FAILED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:13:32,26-01-2024 18:13:32,0.005s,PASSED

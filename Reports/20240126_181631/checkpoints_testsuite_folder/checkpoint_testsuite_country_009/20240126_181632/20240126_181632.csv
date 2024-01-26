@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkpoint_testsuite_country_009,,,,26-01-2024 18:17:01,26-01-2024 18:17:09,8.510s,PASSED
+,,,,,,,
+Test Cases/checkpoint/checkpoint_tc_country_009,,,,26-01-2024 18:17:02,26-01-2024 18:17:09,7.290s,PASSED
+Start listener action : sampleBeforeTestCase,,,,26-01-2024 18:17:02,26-01-2024 18:17:07,4.471s,ERROR
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_for_country""), true)",,,,26-01-2024 18:17:07,26-01-2024 18:17:09,2.299s,PASSED
+Start listener action : sampleAfterTestCase,,,,26-01-2024 18:17:09,26-01-2024 18:17:09,0.082s,PASSED
